@@ -60,3 +60,10 @@ if (imparNumbers.length > 0){
 console.log("------------------------------------------");
 /*7.Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 */
+let smallestValue = biggestValue;
+for (i = 0; i < numbers.length; i += 1){
+    if(numbers[i] < smallestValue){
+        smallestValue = numbers[i];
+    }
+};
+console.log(`Resposta Ex7: ${smallestValue}`);
