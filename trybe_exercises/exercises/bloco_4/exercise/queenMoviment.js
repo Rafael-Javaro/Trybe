@@ -77,4 +77,9 @@ if ((posicaoPecaX > 8 || posicaoPecaY > 8) || (posicaoPecaX < 1 || posicaoPecaY 
     ataqueBemSucedido = false;
 }
 
+if ((posicaoRainhaX > 8 || posicaoRainhaY > 8) || (posicaoRainhaX < 1 || posicaoRainhaY < 1)){
+    console.log("Peça fora do Tabuleiro");
+    ataqueBemSucedido = false;
+}
+
 console.log(ataqueBemSucedido);
