@@ -11,7 +11,7 @@ console.log("Bem-vinda, " + info.personagem + "!");
 
 console.log("---------------------");
 
-/*2.nsira no objeto uma nova propriedade com o nome de chave "recorrente" e o valor "Sim" e, em seguida, imprima o objeto no console.
+/*2.Insira no objeto uma nova propriedade com o nome de chave "recorrente" e o valor "Sim" e, em seguida, imprima o objeto no console.
 Valor Esperado:
                        {
  personagem: 'Margarida',
@@ -20,8 +20,38 @@ Valor Esperado:
     recorrente: 'Sim'
 }
 */
+
 info.recorrente = "Sim";
 
 console.log(info);
 
 console.log("---------------------");
+
+/* 3.Faça um for/in que mostre todas as chaves do objeto.
+
+Valor Esperado:
+ personagem
+  origem
+  nota
+  recorrente
+
+*/
+
+for (key in info){
+    console.log(key);
+};
+
+console.log("------------------------");
+
+/* 4.Faça um novo for/in, mas agora mostre todos os valores das chaves do objeto.
+Valor Esperado:
+  Margarida
+  Pato Donald
+  Namorada do personagem principal nos quadrinhos do Pato Donald
+  Sim
+*/
+
+for (key in info){
+    console.log(info[key]);
+}
+console.log("------------------------");
