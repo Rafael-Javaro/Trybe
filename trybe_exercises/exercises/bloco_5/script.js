@@ -47,12 +47,23 @@ function createDaysOfTheMonth() {
 Adicione a este botão a ID "btn-holiday".
 Adicione este botão como filho/filha da tag <div> com classe "buttons-container". */
 
-function criaBotaoFeriado() {
+function createHolidaysButton() {
     const button = document.createElement('button');
     button.innerHTML = 'Feriados';
     button.id = '#btn-holiday';
     const buttonsContainer = document.querySelector('.buttons-container');
     buttonsContainer.appendChild(button);
 };
-criaBotaoFeriado();
-    
+createHolidaysButton();
+
+/* Ex . #3
+Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday".
+É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)".*/
+
+const holidaysButton = document.getElementById('#btn-holiday');
+holidaysButton.addEventListener('click', recebeClick)
+const holiday = document.querySelector('.holiday');
+
+function recebeClick () {
+  holiday.style.backgroundColor = 'red';
+}
