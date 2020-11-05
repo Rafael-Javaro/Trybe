@@ -50,7 +50,7 @@ Adicione este botão como filho/filha da tag <div> com classe "buttons-container
 function criaBotaoFeriado() {
     const button = document.createElement('button');
     button.innerHTML = 'Feriados';
-    button.classList.add('#btn-holiday');
+    button.id = '#btn-holiday';
     const buttonsContainer = document.querySelector('.buttons-container');
     buttonsContainer.appendChild(button);
 };
