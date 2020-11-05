@@ -28,6 +28,7 @@ function createDaysOfTheMonth() {
         const monthDay = dezDaysList[i];
         const monthDayListItem = document.createElement('li');
         monthDayListItem.innerHTML = monthDay;
+        monthDayListItem.className = 'Day';
         if (dezDaysList[i] == 24 || dezDaysList[i] == 25 || dezDaysList[i] == 31) {
             monthDayListItem.classList.add('holiday');
         }
