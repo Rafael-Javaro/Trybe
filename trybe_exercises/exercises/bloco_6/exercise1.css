@@ -43,5 +43,6 @@ figure {
 @media (min-width: 1479px) {
   body {
       background-color: blueviolet;
+      font-size: large;
   }
 }
