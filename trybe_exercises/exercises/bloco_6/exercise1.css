@@ -39,3 +39,9 @@ figure {
       padding: 1px;
   }
 }
+
+@media (min-width: 1479px) {
+  body {
+      background-color: blueviolet;
+  }
+}
