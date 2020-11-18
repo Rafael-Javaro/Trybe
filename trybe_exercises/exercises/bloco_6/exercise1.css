@@ -44,7 +44,8 @@ figure {
   body {
       background-color: blueviolet;
       font-size: large;
-      margin-left: 25px;
+      margin-left: 200px;
+      max-width: 70%;
   }
 
   p {
