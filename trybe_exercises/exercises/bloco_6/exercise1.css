@@ -22,5 +22,6 @@ figure {
 @media (min-width: 376px) {
   body {
       background-color: aquamarine;
+      font-size: 15px;
   }
 }
