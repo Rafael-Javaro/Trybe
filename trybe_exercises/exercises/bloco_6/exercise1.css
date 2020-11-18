@@ -46,4 +46,8 @@ figure {
       font-size: large;
       margin-left: 25px;
   }
+
+  p {
+    max-width: 70%;
+  }
 }
