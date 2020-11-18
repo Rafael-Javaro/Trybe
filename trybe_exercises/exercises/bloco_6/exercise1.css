@@ -1,8 +1,10 @@
 body {
   font-size: larger;
+  width: 80%;
+  margin: auto;
 }
 h1 {
-  font-size: small;
+  font-size: ;
 }
 h2 {
 
@@ -10,6 +12,7 @@ h2 {
 
 img {
     max-width: 100%;
+    padding: 20px 0;
 }
 
 figure {
