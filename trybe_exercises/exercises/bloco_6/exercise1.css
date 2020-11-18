@@ -30,4 +30,12 @@ figure {
   p {
       width: 90%;
   }
+
+  figure {
+      display: flex;
+      flex-wrap: wrap;
+      float: left;
+      width: 40%;
+      padding: 1px;
+  }
 }
