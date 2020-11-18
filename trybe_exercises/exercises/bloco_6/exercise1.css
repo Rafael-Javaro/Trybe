@@ -23,5 +23,11 @@ figure {
   body {
       background-color: aquamarine;
       font-size: 15px;
+      width: fit-content;
+      margin-left: 10px;
+  }
+
+  p {
+      width: 90%;
   }
 }
