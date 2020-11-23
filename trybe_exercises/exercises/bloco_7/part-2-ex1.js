@@ -1,0 +1,1 @@
+const nFatorial = (n) => n === 0 || n === 1 ? n : n * nFatorial(n-1);
