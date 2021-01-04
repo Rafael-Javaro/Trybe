@@ -1,8 +1,0 @@
-Internet
-Unix
-Bash
-Musico
-Produtor
-Editor
-Programador
-Chef
