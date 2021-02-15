@@ -3,11 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <ReactClass />
-      <span className="HelloWorld">Hello World!</span>
-    </>
-    
+    <ReactClass />
   );
 }
 
