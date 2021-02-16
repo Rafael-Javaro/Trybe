@@ -1,5 +1,8 @@
 {
     "scripts": {
-      "test": "jest"
+        "test": "jest"
+    },
+    "dependencies": {
+        "lint": "^0.7.0"
     }
-  }
+}
