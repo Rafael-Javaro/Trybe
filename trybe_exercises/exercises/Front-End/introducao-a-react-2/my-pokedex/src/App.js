@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Card from './components/Card';
+import Pokedex from './components/Pokedex';
 
 export default class App extends Component {
   render() {
     return (
-      <Card />
+      <Pokedex />
     );
   }  
 }
